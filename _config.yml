@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: 不会写代码的码农
 subtitle:
 description:
 author: 不会写代码的码农
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: zh-hk
+language: en
 date_format: '%Y-%m-%d'
 
 # URL
