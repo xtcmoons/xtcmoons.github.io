@@ -1,13 +1,13 @@
-<!-- Footer -->
-<div id="footer">
-  
-  <!-- Copyright -->
-  <ul class="copyright">
-    {% if site.title or site.author %}
-      <li>&copy; {{- site.title | default: site.author -}}. All rights reserved.</li>
-    {% endif %}
-    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
-  </ul>
-  
-</div>
+{% if site.theme_settings.footer_text %}
+<footer class="site-footer">
+    <p class="text">{{ site.theme_settings.footer_text }}</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                {% include icons.html %}
+                </ul>
+            </div>
+</footer>
+{% endif %}
+
+
