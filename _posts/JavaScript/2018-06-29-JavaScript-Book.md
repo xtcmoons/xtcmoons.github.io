@@ -4,7 +4,7 @@ description: JavaScript 图书推荐
 categories:
  - JavaScript 
 tags:
-    - JavaScript
+    - JavaScript iBook
 ---
 
 ### 推荐阅读JavaScript的图书
