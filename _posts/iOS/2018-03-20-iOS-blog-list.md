@@ -9,7 +9,6 @@ tags:
 
 - [土土哥的技术博客](http://tutuge.me/)
 - [推荐文章介绍Masonry的一系列文章](http://tutuge.me/2015/05/23/autolayout-example-with-masonry/)
-
 - [笔者也在用Swift重写相关例子](https://github.com/xtcmoons/AutolayoutExampleWithSnapKit)
 
 ---
