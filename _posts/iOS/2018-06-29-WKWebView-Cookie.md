@@ -13,7 +13,7 @@ WKWebView 是苹果在 WWDC 2014 上推出的新一代 webView 组件，用以�
 
 
 ## WKWebView 强大的新特性
-iOS11对WKWebView的功能进一步完善，新增了一个雷专门来管理Cookie, 它就是：WKHTTPCookieStore。该类可以在WebKit里面看到。主要包含了了对Cookie的操作：删除、添加、获取等。
+iOS11对WKWebView的功能进一步完善，新增了一个类专门来管理Cookie, 它就是：WKHTTPCookieStore。该类可以在WebKit里面看到。主要包含了了对Cookie的操作：删除、添加、获取等。
 
 比如存Cookie
 ```Objective-C
