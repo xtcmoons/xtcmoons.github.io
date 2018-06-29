@@ -9,9 +9,10 @@ tags:
 
 ## WKWebView 那些坑 
 
-WKWebView 是苹果在 WWDC 2014 上推出的新一代 webView 组件，用以替代 UIKit 中笨重难用、内存泄漏的 UIWebView。WKWebView 拥有60fps滚动刷新率、和 safari 相同的 JavaScript 引擎等优势。随着iOS12的到来苹果全面废弃UIWebView。 
+WKWebView 是苹果在 WWDC 2014 上推出的新一代 webView 组件，用以替代 UIKit 中笨重难用、内存泄漏的 UIWebView。WKWebView 拥有60fps滚动刷新率、和 safari 相同的 JavaScript 引擎等优势。随着iOS12的到来苹果全面废弃UIWebView。
 
-1. WKWebView 强大的新特性
+
+## WKWebView 强大的新特性
 iOS11对WKWebView的功能进一步完善，新增了一个雷专门来管理Cookie, 它就是：WKHTTPCookieStore。该类可以在WebKit里面看到。主要包含了了对Cookie的操作：删除、添加、获取等。
 
 比如存Cookie
