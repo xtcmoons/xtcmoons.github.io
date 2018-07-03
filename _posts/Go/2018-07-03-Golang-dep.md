@@ -48,28 +48,23 @@ dep是官方版本，godep是第三方工具，但是他们的作者是同一个
 如果出现Gopkg.toml and Gopkg.lock are out of sync.时候最好执行一下dep ensure
 
 2. 安装已有的依赖
-如果你是用GitHub上拉去的代码 <code>dep ensure</code> 安装依赖
 ```
     $ dep ensure
-
 ```
 执行dep ensure 为了更好地看到过程，加上参数-v
 
 3. 添加依赖
 ```
     $ dep ensure -add github.com/pkg/foo
-
 ```
 
 4. 添加依赖指定依赖版本
 ```
     $ dep ensure -add github.com/pkg/foo/subpkg@1.0.0 
-
 ```
 
 5. 更新配置
 ```
-
     $ dep ensure -update
     Gopkg.toml and Gopkg.lock are out of sync. Run a plain dep ensure to resync them before attempting to -update
     $ dep  ensure 
@@ -81,8 +76,6 @@ dep是官方版本，godep是第三方工具，但是他们的作者是同一个
 ```
     $ dep ensure -examples
 ```
-
-
 
 ## 参考
 [https://studygolang.com/articles/10589](https://studygolang.com/articles/10589)
