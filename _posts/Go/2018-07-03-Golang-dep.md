@@ -1,6 +1,6 @@
 ---
 title:  Golang官方依赖管理工具：dep
-description: 
+description: Golang官方依赖管理工具：dep 一些常用的用法
 categories:
 - Golang 
 tags:
