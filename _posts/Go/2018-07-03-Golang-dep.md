@@ -71,6 +71,9 @@ dep是官方版本，godep是第三方工具，但是他们的作者是同一个
 ```
 
     $ dep ensure -update
+    Gopkg.toml and Gopkg.lock are out of sync. Run a plain dep ensure to resync them before attempting to -update
+    $ dep  ensure 
+    $ dep  ensure -update -v
 
 ```
 
